@@ -1,0 +1,13 @@
+set terminal x11 size 1360, 700
+set title 'Result'
+set xlabel 'X'
+set ylabel 'Y'
+set xrange [0:8]
+set yrange [0:1]
+set y2range [0:0.0363651]
+set grid
+plot 'out/data1.txt' using 1:2 axes x1y1 w l lw 2 title 'Probability of refuse',\
+'out/data1_2.txt' using 1:2 axes x1y2 w l lw 2 title 'Load coefficient',\
+'out/data2.txt' using 1:2 axes x1y1 w l lw 2 title 'Probability of refuse with Queue',\
+'out/data2_2.txt' using 1:2 axes x1y2 w l lw 2 title 'Load coefficient with Queue'
+pause -1

@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1459770213 source:/home/sasha/Документы/Code::Blocks_projects/tmo/main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<MultichannelSystem.h>
+	<Gnuplot.h>
+	<Plot.h>
+
+1459086466 /home/sasha/Документы/Code::Blocks_projects/tmo/include/MultichannalSystem.h
+
+1459770327 source:/home/sasha/Документы/Code::Blocks_projects/tmo/src/MultichannelSystem.cpp
+	"MultichannelSystem.h"
+	<iostream>
+	<math.h>
+
+1459630990 /home/sasha/Документы/Code::Blocks_projects/tmo/include/MultichannelSystem.h
+
+1459770415 source:/home/sasha/Документы/Code::Blocks_projects/tmo/src/Gnuplot.cpp
+	"Gnuplot.h"
+	<fstream>
+	<iostream>
+	<vector>
+	<cstring>
+	<stdlib.h>
+	<Plot.h>
+
+1459366466 /home/sasha/Документы/Code::Blocks_projects/tmo/include/Gnuplot.h
+	<fstream>
+	<vector>
+	<Plot.h>
+
+1459365934 /home/sasha/Документы/Code::Blocks_projects/tmo/include/Plot.h
+
+1459366233 source:/home/sasha/Документы/Code::Blocks_projects/tmo/src/Plot.cpp
+	"Plot.h"
+
